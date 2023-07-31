@@ -1,6 +1,10 @@
 import java.util.Arrays;
 
 public class SetMatrixZeroes {
+
+    // leetcode 73
+    // https://leetcode.com/problems/set-matrix-zeroes/
+
     public static void setZeroes(int[][] m) {
         int rc = m.length;
         int cc = m[0].length;
